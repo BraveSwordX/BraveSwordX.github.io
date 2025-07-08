@@ -7,10 +7,10 @@
     </configSections>
     <connectionStrings>
 		<!--Developer-->
-		<add name="localhost_JamnacDB_Connection" connectionString="XpoProvider=MSSqlServer;data source=localhost;user id=JamnacRpt;password=Q8vhDws3bMZPU5Rj^EGx7rK$WBkS%Aa9@!fLcqpCT#e462gJFV;initial catalog=JamnacDB;Persist Security Info=true;TrustServerCertificate=true"/>
+		<!--<add name="localhost_JamnacDB_Connection" connectionString="XpoProvider=MSSqlServer;data source=localhost;user id=JamnacRpt;password=Q8vhDws3bMZPU5Rj^EGx7rK$WBkS%Aa9@!fLcqpCT#e462gJFV;initial catalog=JamnacDB;Persist Security Info=true;TrustServerCertificate=true"/>-->
 		
 		<!--Client-->
-		<!--<add name="localhost_JamnacDB_Connection" connectionString="XpoProvider=MSSqlServer;data source=.\JAMNONGDB;user id=JamnacAdmin;password=nGxDwSgvb2^s8mP@9aJ*FHEXW!jpzh4BkCuANZfqVRTcU#L6y$;initial catalog=JamnacDB;Persist Security Info=true;TrustServerCertificate=true"/>-->
+		<add name="localhost_JamnacDB_Connection" connectionString="XpoProvider=MSSqlServer;data source=.\JAMNONGDB;user id=JamnacAdmin;password=nGxDwSgvb2^s8mP@9aJ*FHEXW!jpzh4BkCuANZfqVRTcU#L6y$;initial catalog=JamnacDB;Persist Security Info=true;TrustServerCertificate=true"/>
     </connectionStrings>
     <userSettings>
         <Jamnong_Accounting_Invoice_Software.Properties.Settings>
